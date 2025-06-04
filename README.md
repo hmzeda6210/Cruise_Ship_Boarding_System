@@ -47,19 +47,31 @@ Follow the on-screen menu to:
 ## Project Structure
 
 ```
-Cruise_Ship_Boarding_System/
+Cruise Ship Boarding System/
+│
+├── .vscode/
+│
+├── array_only/
+│   └── w1804929_arrays_only.java
 │
 ├── classes/
 │   └── CruiseShip/
+│       ├── Cabin.java
 │       ├── Main.java
-│       └── ... (other Java classes)
-├── README.md
-└── ...
+│       └── Passenger.java
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
+- **.vscode/**: VS Code workspace settings.
+- **array_only/**: Contains an alternative implementation using only arrays.
+- **classes/CruiseShip/**: Main Java source files for the Cruise Ship Boarding System.
+- **.gitignore**: Git ignore rules.
+- **LICENSE**: Project license.
+- **README.md**: Project documentation.
 
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+ ```
 
 ## License
 
