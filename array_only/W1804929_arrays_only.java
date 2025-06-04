@@ -2,7 +2,7 @@
 import java.util.Scanner; 
 import java.util.Arrays;
         
-public class W1804929_arrays_only {
+public class w1804929_arrays_only {
 
     /**
      * @param args the command line arguments 
@@ -49,26 +49,26 @@ public class W1804929_arrays_only {
             String name= in.next();
             System.out.println("Which cabin?");
             int cabinnum = in.nextInt();
-        W1804929_arrays_only.addcustomer(Cabins,name,cabinnum); 
+        w1804929_arrays_only.addcustomer(Cabins,name,cabinnum); 
         }
         else if (option.equals("V")){
-        W1804929_arrays_only.view(Cabins);
+        w1804929_arrays_only.view(Cabins);
         }
         else if (option.equals("E")) {
-        W1804929_arrays_only.emptycabins(Cabins);    
+        w1804929_arrays_only.emptycabins(Cabins);    
         }
         else if (option.equals("D")) {
             System.out.println("Which cabin you want to delete?: ");
             int del = in.nextInt();
-        W1804929_arrays_only.deletecustomer(Cabins,del); 
+        w1804929_arrays_only.deletecustomer(Cabins,del); 
         }
         else if (option.equals("F")) {
             System.out.println("Inser name");
             String find = in.next();
-        W1804929_arrays_only.findcustomer(Cabins , find);    
+        w1804929_arrays_only.findcustomer(Cabins , find);    
         }
         else if (option.equals("Q")){
-        W1804929_arrays_only.end();
+        w1804929_arrays_only.end();
             break;
                  
         }
