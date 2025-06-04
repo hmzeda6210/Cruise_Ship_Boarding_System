@@ -1,14 +1,20 @@
-# Cruise Ship Boarding System
+# Cruise Ship Boarding System - Java Console Application
 
-A simple Java application to manage the boarding process for a cruise ship. This project is designed for first-year programming students to practice object-oriented programming, file handling, and basic data structures.
+I designed this Java console application to simulate a cruise ship boarding management system for a university coursework project. The system handles 12 cabins with two implementations:
 
-## Features
+**Array-based solution featuring:**
+- Interactive menu (add/view passengers, find cabins, display empty cabins)
+- File I/O operations to save/load data
+- Custom alphabetical sorting algorithm
 
-- Add, view, and remove passengers from the cruise ship
-- Display empty cabins and passenger lists
-- Store and load passenger data from files
-- Search for passengers by name
-- Sort passenger names alphabetically
+**Object-oriented version using:**
+- `Cabin` and `Passenger` classes
+- Expense tracking per passenger
+- Queue-based waiting list (with circular queue implementation)
+
+Key features include robust error handling, data persistence, and efficient passenger management. The project demonstrates core Java concepts including arrays, OOP principles, collections, and file handling. Developed according to strict academic requirements with comprehensive testing documentation.
+
+This was created for the University of Westminster's Software Development module (2022), showcasing my ability to implement complex requirements in clean, maintainable Java code. The dual implementations highlight different programming paradigms for solving the same problem.
 
 ## Technologies Used
 
